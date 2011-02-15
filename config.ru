@@ -11,6 +11,6 @@ use Rack::Static, :urls => ["/stylesheets", "/images", "/javascripts"], :root =>
 use Rack::Session::Cookie
 
 run Rack::Cascade.new([
-  TestApp::Application,
+  # TestApp::Application,
   TestApp::API
 ])
